@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesse Adkins</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <!-- mobile menu -->
+        <div class="mobile-menu-wrapper">
+            <div class="mobile-logo-wrapper">
+                <img src="assets/headshot-silhouette.png" alt="headshot silhouette" class="mobile-logo-img">
+                <p class="mobile-logo-title">Jesse Adkins</p>
+            </div>
+            <button id="mobile-nav-toggle">
+                <img id="toggle-img" src="assets/icons/menu.svg" alt="menu icon">
+            </button>
+        </div>
+        <!-- main menu -->
+        <section id="header-wrapper" data-visible="false">
+                    
+            <div class="main-logo-wrapper">
+                <img src="assets/headshot-silhouette.png" alt="silhouette of headshot" class="main-logo-img">
+                <h1>Jesse Adkins<br>
+                    <span class="title">Frontend Developer</span>
+                </h1>
+            </div>
+
+            <section class="nav-bar-wrapper">
+                <!-- menu links -->
+                <nav class="main-nav">
+                    <ul class="nav-links">
+                        <li><a href="#about" class="link"><span class="small-indicator">01</span>About</a></li>
+                        <li><a href="#skills" class="link"><span class="small-indicator">02</span>Skills</a></li>
+                        <li><a href="#projects" class="link"><span class="small-indicator">03</span>Projects</a></li>
+                        <li><a href="#contact" class="link"><span class="small-indicator">04</span>Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- socials/resume -->
+                <div class="header-links">
+                    <!-- socials -->
+                    <div class="socials-wrapper">
+                        <a href="https://linkedin.com/in/adkinsjesse" target="_blank" data-text="LinkedIn" class="tooltip icon">
+                            <img src="assets/icons/linkedin.svg" alt="linkedin icon">
+                        </a>
+                        <a href="https://codepen.io/jesseadkins" target="_blank" data-text="Codepen" class="tooltip icon">
+                            <img src="assets/icons/codepen.svg" alt="codepen icon">
+                        </a>
+                        <a href="https://github.com/jessadk" target="_blank" data-text="Github" class="tooltip icon">
+                            <img src="assets/icons/github-icon.svg" alt="github icon">
+                        </a>
+                        <a href="https://www.frontendmentor.io/profile/jessadk" target="_blank" data-text="Frontend Mentor" class="tooltip icon">
+                            <img src="assets/icons/frontend-mentor.svg" alt="frontend mentor icon">
+                        </a>
+                    </div>
+                    <!-- resume -->
+                    <div>
+                        <a href="https://www.dropbox.com/scl/fi/xpzqp8lwlfg38103oaref/jesse-adkins-resume.pdf?rlkey=khf6qjyzn13zd41332ojpkuxz&dl=0"  target="_blank" class="text-icon-wrapper">View Resume<img src="assets/icons/external-arrow.svg" alt="right arrow icon" class="text-icon"></a>
+                    </div>
+                </div>
+            </section><!-- /.nav-bar-wrapper -->     
+        </section><!-- /#header-wrapper -->
+    </header>
+
+    <main>
+        <!-- about -->
+        <section id="about" class="about-wrapper spacing-1">
+
+            <div class="title-wrapper">
+                <p class="large-indicator">01</p>
+                <h2>Hello World<span class="title">I'm Jesse, Frontend Developer</span></h2>
+            </div>
+
+            <div class="about-description">
+                <p>After years as a full-time parent - or what I like to call, Household CEO - I am making the transition into the wonderful world of the web. My journey is driven by a love for puzzles and fueled by boundless curiosity and passionate googling.</p> 
+        
+                <p>I recently graduated with a Bachelor of Science in Web Design and Development that gave me a comprehensive understanding of web-related concepts, technologies, and skills necessary for designing, developing and maintaining websites and web apps. I value goal oriented, user-centric and responsive development that is maintainable and adaptive to the ever-evolving digital landscape.</p>
+        
+                <p>My goal is to obtain a position within the digital realm or tech industry, where I can utilize my knowledge and skills to make meaningful contributions. I am dedicated to ongoing learning and adapting to the dynamic environment of technology.</p>
+        
+                <a href="#contact" class="link about-cta">Let's chat! <img src="assets/icons/arrow.svg" alt="right arrow icon" class="text-icon"></a>
+
+            </div> <!-- /.about-description -->
+        </section>
+
+        <!-- skills -->
+        <section id="skills" class="skills-wrapper spacing-1">
+            <div class="title-wrapper">
+                <h2><span class="large-indicator">02</span>My Skills</h2>
+            </div>
+            <div class="skills-list">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SASS/SCSS</li>
+                    <li>Bootstrap</li>
+                    <li>WordPress</li>
+                    <li>PHP</li>
+                    <li>Responsive Design</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>VSCode</li>
+                    <li>Figma</li>
+                    <li>Photoshop</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="projects-wrapper spacing-1">
+
+            <div class="title-wrapper">
+                <h2><span class="large-indicator">03</span>Recent Projects</h2>
+            </div>
+
+            <div class="project-container">
+            
+                <div class="project-card">
+                    <a href="https://everlastingpurpose.com">
+                        <img src="assets/project-card/everlasting-purpose.png" alt="Project Screenshot" class="project-img">
+                    </a>
+                    <div class="project-description">
+                        <div>
+                            <h3>Everlasting Purpose</h3>
+                            <p class="small-font">Designer/Developer</p>
+                        </div>
+                        <div>
+                            <p>A custom responsive <span class="tech">WordPress theme</span> to showcase life coaching services and drive lead generation. Collaborated with client on visual design and content in <span class="tech">Figma</span>. Developed based on designs using <span class="tech">Bootstrap</span>, <span class="tech">SASS</span>, <span class="tech">PHP</span> and <span class="tech">Advanced Custom Fields</span>.</p>
+                        </div>
+                        <div class="project-btn-group">
+                            <div class="demo-btn">
+                                <a href="https://everlastingpurpose.com" class="link about-cta">Live Demo<img src="assets/icons/external-arrow.svg" alt="right arrow icon" class="text-icon"></a>
+                            </div>
+                        </div>
+                    </div><!-- .project-description -->
+                </div><!-- /.project-card -->
+
+                <div class="project-card">
+                    <a href="#">
+                        <img src="assets/project-card/portfolio-project.png" alt="Project Screenshot" class="project-img">
+                    </a>
+                    <div class="project-description">
+                        <div>
+                            <h3>Personal Portfolio</h3>
+                            <p class="small-font">Designer/Developer</p>
+                        </div>
+
+                        <div>
+                            <p>A representation of myself and my skills. Designed with resposiveness and simplicity in mind - frill free (mostly). Built with <span class="tech">CSS Flexbox</span>, <span class="tech">CSS Grid</span> and <span class="tech">Vanilla JavaScript</span> - and redesigned in <span class="tech">Figma</span> about a thousand times.</p>
+                        </div>
+
+                        <div class="project-btn-group">
+                            <div class="code-btn">
+                                <a href="https://github.com/jessadk/portfolio-v2" class="link about-cta">View Code<img src="assets/icons/external-arrow.svg" alt="right arrow icon" class="text-icon"></a>
+                            </div>
+                        </div>
+                    </div><!-- /.project-description -->
+                </div><!-- /.project-card -->
+                
+                <div class="project-card">
+                    <a href="https://password-generator-rouge-rho.vercel.app">
+                        <img src="assets/password-gen-screenshot.png" alt="Project Screenshot" class="project-img">
+                    </a>
+                    <div class="project-description">
+                        <div>
+                            <h3>Password Generator</h3>
+                            <p class="small-font">Developer</p>
+                        </div>
+                        <div>
+                            <p>A simple password app built with <span class="tech">vanilla JavaScript</span> that allows users to generate random passwords of varying lengths, copy them to the clipboard, and toggle between light and dark themes.</p>
+
+                        
+                        </div>
+                        <div class="project-btn-group">
+                            <div class="demo-btn">
+                                <a href="https://password-generator-rouge-rho.vercel.app" class="link about-cta ">Live Demo<img src="assets/icons/external-arrow.svg" alt="right arrow icon" class="text-icon"></a>
+                            </div>
+                            <div class="code-btn">
+                                <a href="https://github.com/jessadk/password-generator" class="link about-cta">View Code<img src="assets/icons/external-arrow.svg" alt="right arrow icon" class="text-icon"></a>
+                            </div>
+                        </div>
+                    </div><!-- /.project-description -->
+                </div><!-- /.project-card -->
+                
+            </div><!-- /.project-container -->
+
+        </section>
+
+        <!-- contact -->
+        <section id="contact" class="contact-wrapper spacing-1">
+            <div class="contact-description">
+                <div class="title-wrapper">
+                    <h2><span class="large-indicator">04</span>Contact Me</h2>
+                </div > 
+
+                <p>If you have inquiries, proposals, or just want to connect, shoot me a message.</p>
+                <p>Let's start a conversation!</p> 
+    
+                <div class="contact-socials">
+                    <div class="contact-socials-list">
+                        <a href="https://linkedin.com/in/adkinsjesse" target="_blank" data-text="LinkedIn" class="tooltip icon"><img src="assets/icons/linkedin.svg" alt="linkedin icon"></a>
+                        <a href="https://codepen.io/jesseadkins" target="_blank" data-text="Codepen" class="tooltip icon"><img src="assets/icons/codepen.svg" alt="codepen icon"></a>
+                        <a href="https://github.com/jessadk" target="_blank" data-text="Github" class="tooltip icon"><img src="assets/icons/github-icon.svg" alt="github icon"></a>
+                        <a href="https://www.frontendmentor.io/profile/jessadk" target="_blank" data-text="Frontend Mentor" class="tooltip icon"><img src="assets/icons/frontend-mentor.svg" alt="frontend mentor icon"></a>
+                    </div>
+                    <p class="email email-wrapper tooltip" data-text="Copy">jesse@jesseadkins.com <img src="assets/icons/copy.svg" alt="" class="text-icon"></p>
+                </div>
+            </div> <!-- /.contact-description -->
+                <form action="https://formsubmit.co/jesse@jesseadkins.com" method="POST">   
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                    <input type="hidden" name="_next" value="https://www.jesseadkins.com/thankyou.html">
+                    <div><input type="submit" ></div>
+                </form>
+        </section> 
+
+        <footer>
+            <small>Portfolio Designed and Developed by <span class="tech">Yours Truly</span>
+            </small>
+        </footer>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
