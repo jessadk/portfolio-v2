@@ -148,6 +148,7 @@ a {
 
   .tooltip[data-text="Frontend Mentor"]:hover:before {
       width: 125px;
+      transform: translateX(-70%) translateY(-130%);
   }
 
   a.link {
